@@ -1,0 +1,42 @@
+.grantsDashboard
+{
+    background-color: #eaeaea;
+    padding: 50px 0px 70px 0px;
+}
+.grantsDashboardContent
+{
+    display: flex;
+    justify-content: space-between
+}
+.AccountActivity
+{
+    padding: 50px 0px;
+}
+.GrantContent
+{
+    margin: 0px;
+    width: 45%;
+    font-family: 'HelveticaNeue';
+  font-size: 16px;
+  color: #505050;
+  word-break: break-all;
+
+}
+.search{
+    background-color: #eaeaea;
+    padding: 50px 0px 45px 0px;
+}
+.Graph
+{
+    margin-top: 50px;
+}
+.range
+{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:767px){
+    .grantsDashboardContent{
+        flex-direction: column;
+    }
+}

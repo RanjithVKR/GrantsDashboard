@@ -1,0 +1,90 @@
+.Tabs{
+    box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
+    margin-left: 20px;
+    background-color: #ffffff;
+    height: 330px;
+
+    /* height: 770px; */
+
+}
+.links {
+    /* margin-bottom: 10px; */
+    /* padding: 20px; */
+    display: flex;
+
+  }
+  .link {
+    /* margin: 0 10px; */
+    display: block;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    font-family: 'HelveticaNeue';
+  font-size: 16px;
+  font-weight: bold;
+  color: #006778;
+  text-decoration: none;
+
+    /* border: 1px solid black; */
+  }
+  .link.Active{
+      /* border: none; */
+      border-top: 2px solid #006778 !important;
+      /* background-color: #006778; */
+      background: #ffffff;
+      color: #505050;
+    }
+  .Active{
+
+  }
+  /* .link:visited {
+    background-color: black;
+  } */
+  
+  .tabs {
+    /* padding: 20px; */
+    /* border: 1px solid #f5f5f5; */
+  }
+  .TabDashboard
+  {
+      padding: 20px 0px 27px 30px;  
+      border-bottom: 2px solid #eaeaea
+
+;
+  }
+  .TId
+  {
+    font-family: 'BerkeleyStd';
+    font-size: 20px;
+    color: #006778;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.TabData
+{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+  .title{
+    font-family: 'HelveticaNeue';
+  font-size: 16px;
+  color: #505050;
+  margin: 0px;
+  }
+  .content
+  {
+    font-family: 'HelveticaNeue';
+    font-size: 16px;
+    font-weight: bold;
+    color: #022737;
+    margin: 0px;
+  }
+  .TabDataContent{
+      width: 33%;
+      padding: 10px 0px;
+  }
+  

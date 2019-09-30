@@ -1,0 +1,34 @@
+
+.carousel .slide{
+    background: #ffffff;
+    text-align: unset;
+}
+.carousel .slider{
+    /* padding: 0px 20px; */
+}
+.slider .content{
+    font-family: 'HelveticaNeue';
+  font-size: 16px;
+  color: #505050;
+  margin: 0px 20px;
+}
+.carousel .control-next.control-arrow:before
+{
+    /* border: solid 8px #727272; */
+    border-left: 8px solid #727272 ;
+
+}
+.carousel .control-prev.control-arrow:before
+{
+    /* border: solid 8px #727272; */
+    border-right: 8px solid #727272 ;
+
+}
+.carousel.carousel-slider .control-arrow 
+{
+    padding: 0px;
+    border: 0.6px solid #727272;
+    border-radius: 50%;
+    bottom: 17px;
+    top:unset;
+}
